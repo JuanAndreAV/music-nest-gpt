@@ -5,6 +5,8 @@ import { PromtValidation } from './dtos';
 @Injectable()
 export class GptService {
 
+    
+
     private openai = new OpenAI({
         apiKey: process.env.OPENAI_API_KEY,
     })
